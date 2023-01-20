@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math.IO</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<h4 id="player1_name" style="color:white"></h4> <span id="player1_score" style="color:white"></span>
+	<br>
+	<h4 id="player2_name" style="color:white"></h4> <span id="player2_score" style="color:white"></span>
+<div class="container">
+	
+	<center>
+		<h2 style="color: white;font-size: 50px;">Math Game:)</h2>
+		<h3 id="Question" style="color:white"></h3>
+		<h3 id="Answer" style="color:white"></h3>
+		<div id="output" style="color:rgb(0, 0, 0)"></div>
+		<br>
+		<br>
+		
+		<label style="color:white;font-size: 30px;">Send Number 1:</label>
+		<input type="number" id="num1" placeholder="Number1 here!" class="form-control">
+		<br>
+        <label style="color:white;font-size: 30px;">Send Number 2:</label>
+		<input type="number" id="num2" placeholder="Number2 here!" class="form-control">
+		<br>
+		<button onclick="send()" class="btn btn-warning" style="width:30%;color: black;font-size: 15px;" >Send!</button>
+	</center>
+</div>
+
+<script src="gampage.js"></script>
+</body>
+</html>
