@@ -1,0 +1,20 @@
+body
+{
+    background-color: rgb(214, 225, 94);
+    color: black;
+}
+.heading{
+width: 80%;
+font-size: 25px;
+font-weight: bold;
+background-color: beige;
+}
+.objects,#resultName,#resultAcc{
+    color: red;
+    font-size: 25px;
+}
+#camera{
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px;
+}
